@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iChat - Realtime Node Socket.io Chat App</title>
-    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
-    <script defer src="js/client.js"></script>
+    <script defer src="http://localhost:8080/socket.io/socket.io.js"></script>
+    
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <script defer src="js/client.js"></script>
     <nav>
         <img class="logo" src="chat.jpg" alt="">
+        <h1>
+            Welcome to iDiscuss Chat App
+        </h1>
     </nav>
     <div class="container">
-        <div class="message right">shu: hey how are  u?</div>
-        <div class="message left">shivam : i am f9. what about you..?</div>
+       <!-- <div class="message right">shu: hey how are  u?</div>
+        <div class="message left">shivam : i am f9. what about you..?</div>-->
     </div>
     <div class="send">
         <form action="#" id="send-container">
